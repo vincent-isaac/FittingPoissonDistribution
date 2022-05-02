@@ -23,12 +23,12 @@ The Poisson distribution is the discrete probability distribution of the number 
 2. Events occur independently. I
 3. The rate of occurrence is constant.
 4. The probability of an event occurring is proportional to the length of the time period. 
-
- 
  
 # Procedure :
 
- 
+![image](https://user-images.githubusercontent.com/104613195/166251359-cc41660a-cb56-455f-9384-3317e3e0fd23.png)
+
+
 # Program
 
  
