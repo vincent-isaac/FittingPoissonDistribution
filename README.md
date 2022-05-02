@@ -15,6 +15,8 @@ Python
 
 The Poisson distribution is the discrete probability distribution of the number of events occurring in a given time period, given the average number of times the event occurs over that time period.
 
+![image](https://user-images.githubusercontent.com/104613195/166248326-fd042076-8b0b-40c4-8b11-1d8e8fcb74db.png)
+
  Conditions for Poisson Distribution:
 
 1. An event can occur any number of times during a time period.
