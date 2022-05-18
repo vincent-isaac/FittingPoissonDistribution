@@ -45,7 +45,7 @@ Pr=list(); E=list(); xi=list()
 print("  X P(X=x) Obs.Fr  Ex.Fre   xi ")
 print("----------------------------------")
 for x in range(7):
-    Pr.append(math.exp(-mean)mean*x/math.factorial(x))
+    Pr.append(math.exp(-mean)*mean**x/math.factorial(x))
     E.append(Pr[x]*N)
     xi.append((f[x]-E[x])**2/E[x])
     print("%2.2f %2.2f  %4.2f   %3.2f  %3.2f"%(x,Pr[x],f[x],E[x],xi[x]))
@@ -60,7 +60,8 @@ else:
     print("The given data cannot be fitted in Poisson distribution at 1% LOS")
  ```
 # Output:
-![Screenshot (56)](https://user-images.githubusercontent.com/75234588/166306294-1886833b-69ca-4313-a332-fde9e3202da6.png)
+![Capture6](https://user-images.githubusercontent.com/75234588/168961302-4a3213da-f1cb-4db4-b5c0-0be6c4589726.PNG)
+
 
 
 
